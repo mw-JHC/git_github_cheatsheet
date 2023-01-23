@@ -9,3 +9,6 @@ git add .
 git commit -m "fixed untracked files and git ignore"
 git push
 ```
+---
+## how to use submodule
+Git submodules are used when using Git resources created by other developers  

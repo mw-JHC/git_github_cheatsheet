@@ -12,3 +12,4 @@ git push
 ---
 ## how to use submodule
 Git submodules are used when using Git resources created by other developers  
+**git submodule add \<git URL> \<file Path>**

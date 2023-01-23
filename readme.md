@@ -25,12 +25,12 @@ git submodule init
 git submodule update
 ```
 ### Delete Submodule
-If you download an unwanted submodule or the download location of a submodule is wrong, you should delete the submodule with the following command instead of just deleting it.
-**git submodule deinit -f \<submodule name>**
-delete the local file of submodule
-**rm -rf .git/module/\<submodule name>**
-delete the file in git
-**git rm -f move_base**
+If you download an unwanted submodule or the download location of a submodule is wrong, you should delete the submodule with the following command instead of just deleting it.  
+**git submodule deinit -f \<submodule name>**  
+delete the local file of submodule  
+**rm -rf .git/module/\<submodule name>**  
+delete the file in git  
+**git rm -f move_base**  
 ```console
 git submodule deinit -f move_base
 rm -rf .git/modules/move_base
